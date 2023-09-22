@@ -1,0 +1,23 @@
+
+@font-face{
+  font-family: AsiaKCUBE;
+  src: url("AsiaKCUBE-R.ttf");
+}
+@font-face{
+  font-family: BlitzBold;
+  src: url("BlitzBold.otf");
+}
+@font-face{
+  font-family: Kurokane;
+  src: url("FOT-KurokaneStd-EB.otf");
+}
+
+h1, h3{
+  font-family: BlitzBold;
+}
+h3{
+  font-family: AsiaKCUBE;
+}
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
