@@ -12,12 +12,58 @@
   src: url("FOT-KurokaneStd-EB.otf");
 }
 
-h1, h3{
-  font-family: BlitzBold;
+body{
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(#603BFF, #ED4D58, #EAFF3D);
+  color:#fcf1d9
 }
-h3{
-  font-family: AsiaKCUBE;
-}
+  
 p{
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+#hero-section{
+  background: url("images/sv-main-square.jpg_large");
+  background-size: cover;
+  background-position: bottom;
+  padding: 100px;
+  position: relative;
+  text-shadow: 0 0 2px #38352F;
+}
+.section-headers{
+  display: flex;
+  flex-direction:column;
+  justify-content:center ;
+  font-family: AsiaKCUBE;
+  margin-top: 100px
+}
+
+.activities-img{
+  max-width:400px;
+  height: 80%;
+  text-align: center;
+  border: 5px dotted #603BFF;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+  
+}
+
+.img-caption{
+  width: 400px;
+  text-align: center;
+}
+
+#activities-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: top;
+}
+
+h1{
+  font-family: BlitzBold;
+  font-size: 45px;
+  margin-top: 0;
 }
