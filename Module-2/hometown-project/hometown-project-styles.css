@@ -1,88 +1,197 @@
-
-@font-face{
+@font-face {
   font-family: AsiaKCUBE;
   src: url("AsiaKCUBE-R.ttf");
 }
-@font-face{
+@font-face {
   font-family: BlitzBold;
   src: url("BlitzBold.otf");
 }
-@font-face{
+@font-face {
   font-family: Kurokane;
   src: url("FOT-KurokaneStd-EB.otf");
 }
 
-body{
+body {
   margin: 0;
   text-align: center;
-  background: linear-gradient(#603BFF, #ED4D58, #EAFF3D);
-  color:#fcf1d9;
-  text-shadow: 0 0 2px #38352F;
+  /* background:url("images/background.jpg") ; */
+  background: linear-gradient(#603bff, #ed4d58, #eaff3d);
+
+  background-repeat: none;
+  background-size: cover;
+  color: #fcf1d9;
+  text-shadow: 0 0 8px black;
 }
-  
-p{
-  font-family: 'Roboto Condensed', sans-serif;
+
+h1 {
+  font-family: BlitzBold;
+  font-size: 45px;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 22px;
 }
-h3, h4{
-  font-family: Kurokane;
-  font-size: 26px;
+
+h4 {
+  color: #603bff;
+  text-shadow: 0 0 5px #ed4d58;
 }
 
-h4{
-  color:#603BFF;
-  text-shadow: 0 0 5px #ED4D58;
-}
-
-#hero-section{
+#hero-section {
   background: url("images/sv-main-square.jpg_large");
   background-size: cover;
   background-position: bottom;
   padding: 100px;
   position: relative;
 }
-
-.intro-desc{
+.city-desc {
+  color: #ed4d58;
+  font-family: Kurokane;
+  font-size: 30px;
+}
+.intro-desc {
   font-weight: 700;
 }
 
-.section-headers{
+.italics {
+  font-style: italic;
+}
+
+.section-headers {
+  font-family: BlitzBold;
+  font-size: 35px;
   display: flex;
-  flex-direction:column;
-  justify-content:center ;
-  margin-top: 70px;
-  margin-bottom: 30px
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
 }
 
-#guide-header{
-  margin-top: 70px;
-  margin-bottom: 10px;
-}
-.activities-img, .guide-img{
-  max-width:400px;
-  height: 80%;
-  text-align: center;
-  border: 5px solid #603BFF;
-  border-radius: 38px;
-  margin: 10px;
-  padding: 8px;
-  box-shadow: 0 0 15px #603BFF;
-}
-
-.img-caption{
-  width: 400px;
-  text-align: center;
-}
-
-#activities-section{
+.activities-section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: top;
+  line-height: 35px;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
-h1{
+.activity,
+#guide-img {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 1.5px solid #603bff;
+  border-radius: 38px;
+  margin: 20px 10px 20px 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px #603bff;
+}
+
+#grizzco {
+  background-image: url("images/sv-grizzco.jpg_large");
+}
+#splat-lobby {
+  background-image: url("images/splat-lobby.jpg");
+}
+#shops {
+  background-image: url("images/splat-shops.png");
+}
+
+.img-caption {
+  width: 400px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.img-title {
   font-family: BlitzBold;
-  font-size: 45px;
+  font-size: 27px;
+  font-weight: 700;
+  color: #38352f;
+  width: 400px;
+  text-shadow: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+#guide-header {
+  margin-top: 70px;
+  margin-bottom: 5px;
+}
+#marigold {
+  font-family: Kurokane;
+  font-size: 33px;
   margin-top: 0;
+  padding: 0;
+}
+
+#guide-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 35px;
+  padding: 80px;
+  margin-bottom: 10px;
+}
+
+#guide-info {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+}
+
+#guide-img {
+  height: 450px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* color:#fcf1d9; */
+  color: #38352f;
+  text-shadow: none;
+  /* border-top: 2px solid #fcf1d9; */
+  border-top: 2px solid #38352f;
+  padding-top: 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+a:link {
+  color: #ed4d58;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ed4d58;
+}
+
+#grizzco:hover {
+  background: url("images/sv-grizzco-2.gif");
+  background-size: cover;
+}
+#splat-lobby:hover {
+  background: url("images/turf-war.gif");
+}
+
+#shops:hover {
+  background: url("images/splat_style.gif");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
 }
