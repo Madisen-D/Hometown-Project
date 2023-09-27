@@ -14,9 +14,9 @@
 body {
   margin: 0;
   text-align: center;
+  width: 100%;
   /* background:url("images/background.jpg") ; */
   background: linear-gradient(#603bff, #ed4d58, #eaff3d);
-
   background-repeat: none;
   background-size: cover;
   color: #fcf1d9;
@@ -44,7 +44,7 @@ h4 {
   background-size: cover;
   background-position: bottom;
   padding: 100px;
-  position: relative;
+  width: 100%;
 }
 .city-desc {
   color: #ed4d58;
@@ -68,26 +68,25 @@ h4 {
   margin-top: 100px;
 }
 
-.activities-section {
+#activities-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: top;
+  justify-content: center;
+  align-items: center;
   line-height: 35px;
-  margin-bottom: 50px;
-  padding: 20px;
+  border: 30px dotted #38352f;
+  box-sizing: border-box;
 }
 
-.activity,
-#guide-img {
-  width: 400px;
-  height: 400px;
+.activity-img {
+  width: 270px;
+  height: 230px;
   background-size: cover;
   background-position: center;
-  border: 1.5px solid #603bff;
+  border-bottom: 10px solid #603bff;
+  border-right: 5px solid #603bff;
   border-radius: 38px;
   margin: 20px 10px 20px 10px;
-  padding: 20px;
   box-shadow: 0 0 15px #603bff;
 }
 
@@ -102,7 +101,7 @@ h4 {
 }
 
 .img-caption {
-  width: 400px;
+  width: auto;
   text-align: center;
   position: relative;
   margin: 0 auto;
@@ -113,8 +112,8 @@ h4 {
   font-family: BlitzBold;
   font-size: 27px;
   font-weight: 700;
-  color: #38352f;
-  width: 400px;
+  color: #eaff3d;
+  width: auto;
   text-shadow: none;
   text-align: center;
   margin: 0 auto;
@@ -136,16 +135,24 @@ h4 {
 #guide-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  background: #603bff;
+  width: 50%;
+  height: 300px;
   line-height: 35px;
-  padding: 80px;
-  margin-bottom: 10px;
+  padding: 100px;
+  margin: 10px auto 100px auto;
+  object-fit: contain;
+  border-radius: 40%;
+  box-shadow: 0 0 10px #603bff;
+  border-bottom: 10px solid #ed4d58;
+  border-right: 5px solid #ed4d58;
 }
 
 #guide-info {
-  width: 400px;
-  height: 400px;
+  width: 30%;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +162,15 @@ h4 {
 }
 
 #guide-img {
-  height: 450px;
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 40%;
+  margin: 20px 10px 20px 10px;
+  padding: 0;
+  border-bottom: 5px solid #eaff3d;
+  border-right: 2.5px solid #eaff3d;
 }
 
 #footer {
@@ -169,7 +184,7 @@ h4 {
   /* border-top: 2px solid #fcf1d9; */
   border-top: 2px solid #38352f;
   padding-top: 8px;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 a:link {
