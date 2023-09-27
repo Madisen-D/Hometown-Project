@@ -44,7 +44,6 @@ h4 {
   background-size: cover;
   background-position: bottom;
   padding: 100px;
-  width: 100%;
 }
 .city-desc {
   color: #ed4d58;
@@ -63,31 +62,34 @@ h4 {
   font-family: BlitzBold;
   font-size: 35px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   margin-top: 100px;
 }
-
+/*cannot figure out how to get this centered/spaced correctly >:( */
 #activities-section {
+  width:auto;
+  height: 500px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  line-height: 35px;
-  border: 30px dotted #38352f;
-  box-sizing: border-box;
-}
+  justify-content: space-around;
+  align-items: top;
+  background: black;
+  border: 20px dotted #38352f;
+  box-shadow: 0 0px 10px#38352f;
+  padding: 30px;
+  margin: 1%;
 
+}
 .activity-img {
-  width: 270px;
+  width: 400px;
   height: 230px;
   background-size: cover;
   background-position: center;
   border-bottom: 10px solid #603bff;
   border-right: 5px solid #603bff;
   border-radius: 38px;
-  margin: 20px 10px 20px 10px;
   box-shadow: 0 0 15px #603bff;
+  margin: 30px;
 }
 
 #grizzco {
@@ -101,11 +103,7 @@ h4 {
 }
 
 .img-caption {
-  width: auto;
   text-align: center;
-  position: relative;
-  margin: 0 auto;
-  padding: 0px;
 }
 
 .img-title {
@@ -113,12 +111,8 @@ h4 {
   font-size: 27px;
   font-weight: 700;
   color: #eaff3d;
-  width: auto;
-  text-shadow: none;
+  text-shadow: 0 0 2px eaff3d;
   text-align: center;
-  margin: 0 auto;
-  padding: 0px;
-  position: relative;
 }
 
 #guide-header {
@@ -178,6 +172,7 @@ h4 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  vertical-align: bottom;
   /* color:#fcf1d9; */
   color: #38352f;
   text-shadow: none;
