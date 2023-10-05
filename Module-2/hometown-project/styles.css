@@ -1,14 +1,14 @@
 @font-face {
   font-family: AsiaKCUBE;
-  src: url("AsiaKCUBE-R.ttf");
+  src: url("fonts/AsiaKCUBE-R.ttf");
 }
 @font-face {
   font-family: BlitzBold;
-  src: url("BlitzBold.otf");
+  src: url("fonts/BlitzBold.otf");
 }
 @font-face {
   font-family: Kurokane;
-  src: url("FOT-KurokaneStd-EB.otf");
+  src: url("fonts/FOT-KurokaneStd-EB.otf");
 }
 
 body {
