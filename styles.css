@@ -197,6 +197,7 @@ a:visited {
 }
 #splat-lobby:hover {
   background: url("images/turf-war.gif");
+  background-position: center;
 }
 
 #shops:hover {
