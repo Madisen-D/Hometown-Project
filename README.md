@@ -27,7 +27,7 @@ It is currently completed, but I want to update it to be more responsive in the 
  * Overall, I think this was something fun to create. I love the game and finding all the resources and making this was really fun.
 
 🔴 What went poorly
-* The website is completely unresponsive to screen size. Some parts are and some are not. That is my biggest issue. I want it to shrink with distortion and I couldn't figure out what element needed to be changed to do so. The width? a meta tag? I'm not sure, but I was missing something.
+* The website is completely unresponsive to screen size. Some parts are and some are not. That is my biggest issue. I want it to shrink without distortion and I couldn't figure out what element needed to be changed to do so. The width? a meta tag? I'm not sure, but I was missing something.
 * No other major issues, I'm happy with what it was for my first try.
 
 Website Images
